@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{10C10B96-92AC-42B8-BBCB-401CCFB807AB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WildFireProject/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WildFireProject/Models/DbConnect.cs">
     <Files>
-      <File FileName="WildFireProject/Controllers/HomeController.cs" Line="10" Column="42" />
+      <File FileName="WildFireProject/Models/Config.cs" Line="12" Column="2" />
+      <File FileName="WildFireProject/Models/DbConnect.cs" Line="31" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

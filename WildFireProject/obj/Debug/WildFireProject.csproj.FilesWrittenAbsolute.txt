@@ -10,3 +10,16 @@
 /Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.WebPages.dll
 /Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.WebPages.Razor.dll
 /Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.Mvc.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/WildFireProject.dll.mdb
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/WildFireProject.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/obj/Debug/WildFireProject.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/obj/Debug/WildFireProject.dll.mdb
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/System.Web.Razor.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/Microsoft.Web.Infrastructure.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/System.Web.Helpers.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/System.Web.WebPages.Deployment.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/System.Web.WebPages.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/System.Web.WebPages.Razor.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/System.Web.Mvc.dll
+/Users/kitiararivera/Development/WildFire/WildFireProject/bin/MySql.Data.dll

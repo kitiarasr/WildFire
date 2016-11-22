@@ -1,0 +1,12 @@
+/Users/Giovani/Development/WildFireProject/WildFireProject/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/WildFireProject.dll.mdb
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/WildFireProject.dll
+/Users/Giovani/Development/WildFireProject/WildFireProject/obj/Debug/WildFireProject.dll
+/Users/Giovani/Development/WildFireProject/WildFireProject/obj/Debug/WildFireProject.dll.mdb
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.Razor.dll
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/Microsoft.Web.Infrastructure.dll
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.Helpers.dll
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.WebPages.Deployment.dll
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.WebPages.dll
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.WebPages.Razor.dll
+/Users/Giovani/Development/WildFireProject/WildFireProject/bin/System.Web.Mvc.dll

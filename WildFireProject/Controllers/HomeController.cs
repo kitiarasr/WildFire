@@ -18,6 +18,7 @@ namespace WildFireProject.Controllers
 			ViewData["Runtime"] = isMono ? "Mono" : ".NET";
 
 			DbConnect conn = new DbConnect(); //object to connect to database
+			conn.Insert("RENEL", "GIO");
 
 			return View();
 		}

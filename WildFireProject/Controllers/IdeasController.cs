@@ -13,12 +13,14 @@ namespace WildFireProject.Controllers
 {
     public class IdeasController : Controller
     {
-        public ActionResult ShowIdea()
+        public ActionResult Index()
         {
 			// create an idea to store infoa
 			Idea idea = new Idea();
 			idea.Title = "Overthrow Donald Trump";
 			idea.Description = "Idea to take Donald Trump out of the White House!";
+
+			// in the future this would actually query the database and return the ideas there //
 
 			// give the view the idea
             return View(idea);

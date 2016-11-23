@@ -77,6 +77,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Models\DbConnect.cs" />
     <Compile Include="Models\Config.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Idea.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />

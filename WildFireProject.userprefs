@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{10C10B96-92AC-42B8-BBCB-401CCFB807AB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WildFireProject/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WildFireProject/Controllers/IdeasController.cs">
     <Files>
-      <File FileName="WildFireProject/Controllers/HomeController.cs" Line="10" Column="42" />
+      <File FileName="WildFireProject/Controllers/HomeController.cs" Line="20" Column="18" />
+      <File FileName="WildFireProject/Controllers/IdeasController.cs" Line="21" Column="28" />
+      <File FileName="WildFireProject/Models/Idea.cs" Line="36" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

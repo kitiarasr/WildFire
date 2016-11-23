@@ -78,6 +78,7 @@ namespace WildFireProject
 				conn.Open();
 
 				command.CommandText = sql;
+				command.CommandText = "UPDATE `test` set (`name` , `location`) VALUES (@name , @location);";
 
 				command.ExecuteScalar(); //UPDATE.. SHOULDNT IT BE executeNonQuery??
 

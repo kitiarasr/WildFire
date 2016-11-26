@@ -1,0 +1,73 @@
+﻿@model WildFireProject.Models.Tables.Idea
+
+@{
+	ViewBag.Title = "Create";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>@Model.Title</h1>
+<p>@Model.Description</p>
+
+@*@{
+    ViewData["Title"] = "Issues";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>*@
+
+@*<p>Use this area to provide news information.</p>*@
+<div class="col-md-12" style="background-color: azure">
+    <div class="row" style="padding: 10px">
+        <div class="col-md-12" style="background-color: aqua">
+            <form asp-action="IdeaView">
+                <p>Choose a Location:</p>
+                <select name="Location" size="1">
+                    <option value="IDEA_CENTER">IDEA CENTER</option>
+                    <option value="MDC-WOLFSON">MDC-WOLFSON</option>
+                    <option value="GREATER_MIAMI">GREATER MIAMI</option>
+                </select><p></p>
+                @*COMMENTED OUT PART TO CHOOSE PRESET PROJECTS*@
+                @*<p>Choose a Project:</p>
+                <select name="Project" size="1">
+                    <option value="templateA">Template Project A</option>
+                    <option value="templateB">Template Project B</option>
+                    <option value="templateC">Template Project C</option>
+                    <option value="customTemplate">Custom Project</option>
+                </select><p></p>*@
+                <p>Give your project a title:</p>
+                <input type="text" name="Title" size="12" placeholder="Title" /><p></p>
+                <p>Description: In a few words, describe what your project is about.</p>
+                <textarea name="Description" rows="4" cols="200"></textarea><p></p>
+                @*<p>5. Goal: <input type="text" name="Goal" size="6" placeholder="$0.00"/></p>*@
+
+                @*PROGRESS BAR*@
+                @*<input type="text" name="Description" style="height: 80px" width="300" size="20000"/>*@
+
+                <p>How much money do you need to complete the project.</p>
+                <p>Financial Goal: <input type="number" min="0" step="any" name="Goal" size="6" placeholder="$0.00" /></p><br /><br />
+                <p>What skills are required to complete the project.</p>
+                <p>
+                    Skills:
+                    <input type="text" name="skill" placeholder="position" /> Category:
+                    <select name="Skill_cat" size="1">
+                        <option value="Coding">Coding</option>
+                        <option value="Organizer">Organizer</option>
+                        <option value="Education">Education</option>
+                        <option value="Accounting">Accounting</option>
+                        <option value="Culinary">Culinary</option>
+                        <option value="Social">Social</option>
+                        <option value="Design">Design</option>
+                        <option value="Gaming">Gaming</option>
+                        <option value="Fitness">Fitness</option>
+                        <option value="SkillCat">Skill Category1</option>
+                        <option value="SkillCat">Skill Category2</option>
+                        <option value="SkillCat">Skill Category3</option>
+                    </select> <input type="button" value="Add" />
+                    
+                    @*//COMMENTED OUT PETITION OPTION*@
+                @*<p>Petition:</p>
+                <p>
+                    How many signatures do you need? <input type="text" name="num_signatures" size="5" />*@
+                    <input type="submit" value="NEXT" />
+</form>
+</div>
+    </div>
+</div>

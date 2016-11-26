@@ -1,0 +1,198 @@
+﻿@{
+    ViewBag.Title = "Home";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/Content/Images/banner1.jpg" class="img-responsive"/>
+            <div class="carousel-caption" role="option">
+                <p>
+                    Poverty, Goverment corruption, Corporate accountability, Social injustice.
+                    <a class="btn btn-default" href="#">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/banner2.jpg" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Imagine a way to address that issue.
+                    <a class="btn btn-default" href="#">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/banner3.jpg" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Get the support needed to turn your idea into action.
+                    <a class="btn btn-default" href="#">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Content/Images/banner4.jpg" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Wildfire brings together people who want to make the world a better place.
+                    <a class="btn btn-default" href="#">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+@*<div class="row">
+    <div class="col-md-3">
+        <h2>Application uses</h2>
+        <ul>
+            <li>Sample pages using ASP.NET Core MVC</li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side libraries</li>
+            <li>Theming using <a href="http://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>How to</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=699562">Add an appsetting in config and access it in app.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699318">Add client packages using Bower.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Overview</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Run & Deploy</h2>
+        <ul>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" style="background-color: aqua">
+            <div class="Project_Preview">
+                <div class="project-thumbnail"><img src="https://ksr-ugc.imgix.net/assets/014/423/761/14cfd1f388b01c2d6e77366e2ab83d51_original.jpg?w=338&h=190&fit=fill&bg=000000&v=1479234381&auto=format&q=92&s=797d698d2c6c77610aef7ebe919c0b87" class="img-rounded"/>
+                    <div class="project-content">
+                        <div class="project-title">
+                            <h6><a href="/projects/2020043306/jupiter-hell-a-modern-turn-based-sci-fi-roguelike?ref=home_popular" target="">Jupiter Hell - a modern turn-based sci-fi roguelike</a></h6>
+                            <p>Line1</p>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="js-score-tracking project-card project-card-tall-big project-card-wrap ratio-16-9" data-pid="643979114">
+                <div class="project-thumbnail">
+                    <div class="projects-we-love-badge projects-we-love-badge--overlay">
+                        <div class="icon"><span aria-hidden="true" class="ksr-icon__heart"></span></div><div class="label">Project We Love</div>
+                    </div>
+
+                    <a class="project-thumbnail-wrap" data-pid="643979114" href="/projects/2020043306/jupiter-hell-a-modern-turn-based-sci-fi-roguelike?ref=home_popular" target="">
+                        <img alt="Project image" class="project-thumbnail-img" src="https://ksr-ugc.imgix.net/assets/014/423/761/14cfd1f388b01c2d6e77366e2ab83d51_original.jpg?w=338&amp;h=190&amp;fit=fill&amp;bg=000000&amp;v=1479234381&amp;auto=format&amp;q=92&amp;s=797d698d2c6c77610aef7ebe919c0b87" width="100%">
+                    </a>
+                </div>
+                <div class="project-card-content">
+                    <h6 class="project-title"><a data-pid="643979114" data-score="null" data-version="null" href="/projects/2020043306/jupiter-hell-a-modern-turn-based-sci-fi-roguelike?ref=home_popular" target="">Jupiter Hell - a modern turn-based sci-fi roguelike</a></h6> <p class="project-byline">ChaosForge Ltd</p>
+                    <p class="project-blurb">
+                        Jupiter Hell is a turn-based sci-fi roguelike/RPG with modern 3D graphics, by the creator of Doom, the Roguelike.
+                    </p>
+                </div>
+                <div class="project-card-footer">
+                    <div class="project-location">
+                        <a data-location="{&quot;id&quot;:526363,&quot;name&quot;:&quot;Wroclaw&quot;,&quot;slug&quot;:&quot;wroclaw-wroclaw-lower-silesia&quot;,&quot;short_name&quot;:&quot;Wroclaw, Poland&quot;,&quot;displayable_name&quot;:&quot;Wroclaw, Poland&quot;,&quot;country&quot;:&quot;PL&quot;,&quot;state&quot;:&quot;Lower Silesia&quot;,&quot;type&quot;:&quot;Town&quot;,&quot;is_root&quot;:false,&quot;urls&quot;:{&quot;web&quot;:{&quot;discover&quot;:&quot;https://www.kickstarter.com/discover/places/wroclaw-wroclaw-lower-silesia&quot;,&quot;location&quot;:&quot;https://www.kickstarter.com/locations/wroclaw-wroclaw-lower-silesia&quot;},&quot;api&quot;:{&quot;nearby_projects&quot;:&quot;https://api.kickstarter.com/v1/discover?signature=1479529687.b5cbce73e58b67d723560a1ac9eea28244e358ed&amp;woe_id=526363&quot;}}}" href="/discover/places/wroclaw-wroclaw-lower-silesia?ref=city" target="">
+                            <span aria-hidden="true" class="ksr-icon__location"></span>
+                            <span class="location-name">Wroclaw, Poland</span>
+                        </a>
+                    </div>
+                    <div class="project-stats-container">
+                        <div class="project-pledged-successful">
+                            <strong>Successfully funded!</strong>
+                        </div>
+                        <div class="project-progress-bar">
+                            <div class="project-percent-pledged" style="width: 40.56%"></div>
+                        </div>
+                        <ul class="project-stats">
+                            <li>
+                                <div class="project-stats-value">40%</div> <span class="project-stats-label">funded</span>
+                            </li>
+                            <li style="display: none;">
+                                <div class="project-stats-value">Funded</div>
+                                <span class="project-stats-label">
+                                </span>
+                            </li>
+                            <li class="ksr_page_timer" data-end_time="2016-12-13T17:59:00-05:00">
+                                <div class="project-stats-value">
+                                    <div class="js-num">25</div>
+                                </div>
+                                <div class="project-stats-label js-text" data-word="left">days to go</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" style="background-color: aqua">three</div>
+    </div>
+</div>*@
+
+<div class="col-md-12" style="background-color: azure">featured 12 wide
+    <div class="row" style="padding: 10px">
+        <div class="col-md-12" style="background-color: aqua">with-in 12 wide
+        <h2>About</h2>
+        <h3>Your application description page.</h3>
+        <p>Use this area to provide additional information.</p>
+        </div>
+    </div>
+</div>
+<div class="col-md-12" style="background-color: azure">second div 12 wide
+    <div class="row" style="padding: 10px">
+        <div class="col-md-4" style="background-color: aqua">4 wide</div>
+        <div class="col-md-4" style="background-color: aqua">4 wide</div>
+        <div class="col-md-4" style="background-color: aqua">4 wide</div>
+    </div>
+</div>

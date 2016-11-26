@@ -25,5 +25,13 @@ namespace WildFireProject.Controllers
 			// give the view the idea
             return View(idea);
         }
+
+        public ActionResult Create(string title)
+        {
+            Idea idea = new Idea();
+            idea.Title = title;
+
+            return View(idea);
+        }
     }
 }

@@ -1,0 +1,93 @@
+﻿@model WildFireProject.Models.Tables.Issue
+
+@{
+	ViewBag.Title = "Issues";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*<h1>@Model.Title</h1>
+<p>@Model.Description</p>*@
+
+@*@{
+    ViewData["Title"] = "Issues";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>*@
+
+@*<p>Use this area to provide news information.</p>*@
+<div class="col-md-12" style="background-color: azure">
+    <div class="row" style="padding: 10px">
+        <div class="col-md-12" style="background-color: aqua">
+            <h3>National</h3><hr />
+            <h4>The Story</h4>
+            <h4>@Model.Title</h4>
+            <p>@Model.Description</p>
+            <br />
+            <h4>What Happened</h4>
+            <p>@Model.WhatHap</p>
+            <br />
+            <h4>The Skimm</h4>
+            <p>@Model.Skimm</p>
+            <button type="submit" formaction="~/Ideas/Create">Take action</button><p></p>
+            <br />
+            <h4>The Story 2</h4>
+            <p>Story</p>
+            <br />
+            <h4>What Happened</h4>
+            <p>blurb</p>
+            <br />
+            <h4>The Skimm</h4>
+            <p>blurb</p>
+            <button>Take action</button><p></p>
+        </div>
+        <p>
+            break
+        </p>
+        <div class="col-md-12" style="background-color: aqua">
+            <h3>State</h3><hr />
+            <h4>The Story</h4>
+            <p>Story</p>
+            <br />
+            <h4>What Happened</h4>
+            <p>blurb</p>
+            <br />
+            <h4>The Skimm</h4>
+            <p>blurb</p>
+            <button>Take action</button><p></p>
+            <br />
+            <h4>The Story 2</h4>
+            <p>Story</p>
+            <br />
+            <h4>What Happened</h4>
+            <p>blurb</p>
+            <br />
+            <h4>The Skimm</h4>
+            <p>blurb</p>
+            <button>Take action</button><p></p>
+        </div>
+        <p>
+            break
+        </p>
+        <div class="col-md-12" style="background-color: aqua">
+            <h3>Local</h3><hr />
+            <h4>The Story</h4>
+            <p>Story</p>
+            <br />
+            <h4>What Happened</h4>
+            <p>blurb</p>
+            <br />
+            <h4>The Skimm</h4>
+            <p>blurb</p>
+            <button>Take action</button><p></p>
+            <br />
+            <h4>The Story 2</h4>
+            <p>Story</p>
+            <br />
+            <h4>What Happened</h4>
+            <p>blurb</p>
+            <br />
+            <h4>The Skimm</h4>
+            <p>blurb</p>
+            <button>Take action</button><p></p>
+        </div>
+    </div>
+</div>
